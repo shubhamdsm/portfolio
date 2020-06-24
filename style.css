@@ -1,0 +1,146 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: black;
+  background-repeat: no-repeat;
+  color: white;
+}
+a {
+  color: white;
+}
+li {
+  list-style: none;
+  float: right;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main {
+  height: 600px;
+}
+.copy-container span {
+  color: #eba300;
+}
+.copy-container h1 {
+  padding-left: 60px;
+  padding-top: 100px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 46px;
+  font-weight: 600;
+}
+.copy-container h3 {
+  font-family: inherit;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  color: #c1c1c1;
+  font-style: italic;
+}
+button {
+  padding: 14px 40px;
+  margin-left: 60px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+.explore {
+  background-color: #eba300;
+  border: 1px;
+  border-color: #eba300;
+}
+.contact {
+  border: 1px;
+  border-color: #545b62;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-radius: 0;
+}
+.footer-list{
+  font-size: 12px;
+  display: flex;
+}
+
+.project-page {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.project-page .header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.project-page .header .header-list {
+  margin-right: 50px;
+}
+
+.project-page .main-project {
+  width: 100%;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.project-page .main-project div {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-page .main-project div:hover {
+  background:  #eba300;
+}
+
+.project-page .footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+}
+.parent-about{
+  display: flex;
+  
+  width: 100vw;
+  height: 100vh;
+}
+.about-left{
+  
+  
+}
+.about-right{
+  
+  
+}
